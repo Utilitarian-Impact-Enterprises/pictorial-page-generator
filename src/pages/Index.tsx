@@ -18,10 +18,8 @@ const Index = () => {
             transition={{ duration: 0.7 }}
             className="max-w-4xl mx-auto space-y-6"
           >
-            <h1 className="text-4xl md:text-6xl font-semibold text-white leading-tight">
-              Your beautiful freelance toolkit.
-              <br />
-              From sending proposals to getting paid
+            <h1 className="text-4xl md:text-4xl font-semibold text-white leading-tight">
+              Innovations in Socioeconomic technology
             </h1>
             
             <motion.p
@@ -30,21 +28,12 @@ const Index = () => {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="text-white text-opacity-90 text-lg md:text-xl max-w-3xl mx-auto"
             >
-              Make your services stand out by presenting them with finesse.
-              Forget emailing PDFs, late payments, or not hearing back. Use Portal to send
-              branded digital proposals, collect project payments, run subscription-based
-              services, transfer large deliverables, & more.
+              What does the world need? What would make a crucial difference and lead us towards common prosperity? 
+              Those questions occupy my imagination. 
+              And I am here to direct all my skills and capabilities towards innovations in our socioeconomic technologies, 
+              enabling a thriving and balanced existence of all across spacetime.
             </motion.p>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.4 }}
-            >
-              <button className="px-8 py-3 bg-white rounded-full text-portal-text font-medium hover:bg-opacity-90 transition-all transform hover:scale-105">
-                Join beta
-              </button>
-            </motion.div>
           </motion.div>
 
           <motion.div
@@ -55,7 +44,7 @@ const Index = () => {
           >
             <div className="relative aspect-[16/9] bg-white bg-opacity-10 backdrop-blur-lg rounded-lg p-6 animate-float">
               <img
-                src="/lovable-uploads/c77fc370-51de-4d7d-8618-b6c4e7fecadf.png"
+                src="/lovable-uploads/artazie.jpeg"
                 alt="Portal Interface"
                 className="w-full h-full object-cover rounded-lg"
               />
