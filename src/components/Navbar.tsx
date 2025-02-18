@@ -1,5 +1,6 @@
 
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,22 +12,24 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
           className="flex items-center space-x-2"
         >
-          <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-            <svg
-              className="w-5 h-5 text-portal-blue"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M13 10V3L4 14h7v7l9-11h-7z"
-              />
-            </svg>
-          </div>
-          <span className="text-white text-xl font-semibold">Azie</span>
+          <Link to="/" className="flex items-center space-x-2">
+            <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+              <svg
+                className="w-5 h-5 text-portal-blue"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                />
+              </svg>
+            </div>
+            <span className="text-white text-xl font-semibold">Azie</span>
+          </Link>
         </motion.div>
         
         <motion.div
@@ -35,15 +38,15 @@ const Navbar = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="hidden md:flex items-center space-x-8"
         >
-          <a href="#about" className="text-white hover:text-opacity-80 transition-colors">
+          <Link to="/about" className="text-white hover:text-opacity-80 transition-colors">
             About
-          </a>
-          <a href="#portfolio" className="text-white hover:text-opacity-80 transition-colors">
+          </Link>
+          <Link to="/portfolio" className="text-white hover:text-opacity-80 transition-colors">
             Portfolio
-          </a>
-          <a href="#contact" className="text-white hover:text-opacity-80 transition-colors">
+          </Link>
+          <Link to="/contact" className="text-white hover:text-opacity-80 transition-colors">
             Contact
-          </a>
+          </Link>
         </motion.div>
       </div>
     </nav>
