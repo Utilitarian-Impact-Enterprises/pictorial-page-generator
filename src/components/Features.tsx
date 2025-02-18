@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
@@ -14,6 +15,13 @@ const Features = () => {
       <div className="max-w-4xl mx-auto">
 
         <Accordion type="single" collapsible>
+          <AccordionItem value="socio">
+            <AccordionTrigger className="text-white text-2xl">Socio</AccordionTrigger>
+            <AccordionContent className="text-white text-xl">
+              Explore our social features and community engagement tools designed to help you connect with your audience and grow your network.
+            </AccordionContent>
+          </AccordionItem>
+
           <AccordionItem value="economic">
             <AccordionTrigger className="text-white text-2xl">Economic</AccordionTrigger>
             <AccordionContent className="text-white text-xl">
