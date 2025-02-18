@@ -35,11 +35,11 @@ const Navbar = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="hidden md:flex items-center space-x-8"
         >
-          <a href="#product" className="text-white hover:text-opacity-80 transition-colors">
-            Product
+          <a href="#about" className="text-white hover:text-opacity-80 transition-colors">
+            About
           </a>
-          <a href="#blog" className="text-white hover:text-opacity-80 transition-colors">
-            Blog
+          <a href="#portfolio" className="text-white hover:text-opacity-80 transition-colors">
+            Portfolio
           </a>
           <a href="#contact" className="text-white hover:text-opacity-80 transition-colors">
             Contact
