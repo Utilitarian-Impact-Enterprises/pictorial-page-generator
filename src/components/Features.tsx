@@ -1,17 +1,12 @@
-
 import { motion } from "framer-motion";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-
 type Feature = {
   icon: React.ReactNode;
   title: string;
   bgColor: string;
 };
-
 const Features = () => {
-
-  return (
-    <section className="py-20 px-6">
+  return <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
 
         <Accordion type="single" collapsible>
@@ -40,26 +35,19 @@ const Features = () => {
         <br />
         <br />
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          viewport={{ once: true }}
-          className="text-center mb-16 space-y-4"
-        >
-          <h2 className="text-white text-2xl">Socio</h2>
-          <p className="text-white text-xl">
-            Explore our social features and community engagement tools designed to help you connect with your audience and grow your network.
-          </p>
-        </motion.div>
+        
 
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
-        >
+        <motion.div initial={{
+        opacity: 0,
+        y: 40
+      }} whileInView={{
+        opacity: 1,
+        y: 0
+      }} transition={{
+        duration: 0.7
+      }} viewport={{
+        once: true
+      }} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-blue-500 p-4 rounded-lg">
             <h3 className="text-white text-xl">Feature 1</h3>
             <p className="text-white text-lg">Description of feature 1</p>
@@ -81,8 +69,6 @@ const Features = () => {
           </div>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Features;
