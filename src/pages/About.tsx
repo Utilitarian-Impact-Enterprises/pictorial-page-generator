@@ -33,12 +33,13 @@ const About = () => {
                 <div className="relative w-48 h-48">
                   <Avatar className="w-48 h-48">
                     <AvatarImage
-                      src="/lovable-uploads/artazie.jpeg"
+                      src="/lovable-uploads/blommig Azi.jpg"
                       alt="Profile"
-                      className="object-cover"
+                      className="w-full h-full object-contain"
                       loading="eager"
-                      width={192}
-                      height={192}
+                      width={384}
+                      height={384}
+                      style={{ imageRendering: 'crisp-edges' }}
                     />
                     <AvatarFallback>
                       <Skeleton className="w-48 h-48 rounded-full" />
@@ -57,7 +58,7 @@ const About = () => {
 
               <div className="grid md:grid-cols-2 gap-8 mt-12">
                 <div className="space-y-4">
-                  <h3 className="text-xl font-semibold text-white">Vision</h3>
+                  <h3 className="text-xl font-semibold text-white">Solarpunk future</h3>
                   <p className="text-white text-opacity-90">
                     I envision a world where technology serves as a catalyst for positive social change and economic empowerment, creating opportunities for everyone to thrive.
                   </p>
