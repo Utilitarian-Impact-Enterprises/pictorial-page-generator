@@ -26,7 +26,7 @@ const Navbar = () => {
               />
             </svg>
           </div>
-          <span className="text-white text-xl font-semibold">Portal</span>
+          <span className="text-white text-xl font-semibold">Azie</span>
         </motion.div>
         
         <motion.div
