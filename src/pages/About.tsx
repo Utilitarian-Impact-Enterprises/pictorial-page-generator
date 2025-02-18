@@ -2,6 +2,8 @@
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Stars from "../components/Stars";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Skeleton } from "@/components/ui/skeleton";
 
 const About = () => {
   return (
@@ -28,11 +30,21 @@ const About = () => {
               className="bg-white bg-opacity-10 backdrop-blur-lg rounded-lg p-8 space-y-6"
             >
               <div className="flex flex-col md:flex-row gap-8 items-center">
-                <img
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
-                  alt="Profile"
-                  className="w-48 h-48 object-cover rounded-full"
-                />
+                <div className="relative w-48 h-48">
+                  <Avatar className="w-48 h-48">
+                    <AvatarImage
+                      src="/lovable-uploads/artazie.jpeg"
+                      alt="Profile"
+                      className="object-cover"
+                      loading="eager"
+                      width={192}
+                      height={192}
+                    />
+                    <AvatarFallback>
+                      <Skeleton className="w-48 h-48 rounded-full" />
+                    </AvatarFallback>
+                  </Avatar>
+                </div>
                 <div className="space-y-4 text-center md:text-left">
                   <h2 className="text-2xl font-semibold text-white">
                     Innovation & Impact

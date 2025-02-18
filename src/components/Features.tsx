@@ -9,7 +9,7 @@ const Features = () => {
   return <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
 
-        <Accordion type="single" collapsible>
+        <Accordion type="multiple" collapsible>
           <AccordionItem value="socio">
             <AccordionTrigger className="text-white text-2xl">Socio</AccordionTrigger>
             <AccordionContent className="text-white text-xl">
