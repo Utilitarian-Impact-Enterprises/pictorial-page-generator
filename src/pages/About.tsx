@@ -30,8 +30,8 @@ const About = () => {
               className="bg-white bg-opacity-10 backdrop-blur-lg rounded-lg p-8 space-y-6"
             >
               <div className="flex flex-col md:flex-row gap-8 items-center">
-                <div className="relative w-48 h-48">
-                  <Avatar className="w-48 h-48">
+                <div className="relative w-48 h-48 md:w-72 md:h-72">
+                  <Avatar className="w-48 h-48 md:w-72 md:h-72">
                     <AvatarImage
                       src="/lovable-uploads/blommig Azi.jpg"
                       alt="Profile"
@@ -42,7 +42,7 @@ const About = () => {
                       style={{ imageRendering: 'crisp-edges' }}
                     />
                     <AvatarFallback>
-                      <Skeleton className="w-48 h-48 rounded-full" />
+                      <Skeleton className="w-48 h-48 md:w-72 md:h-72 rounded-full" />
                     </AvatarFallback>
                   </Avatar>
                 </div>

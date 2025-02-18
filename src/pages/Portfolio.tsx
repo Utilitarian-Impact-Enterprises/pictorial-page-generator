@@ -5,27 +5,51 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const projects = [
   {
-    title: "AI-Powered Analytics Platform",
-    description: "A machine learning platform that provides predictive analytics for business intelligence.",
-    image: "/placeholder.svg",
+    title: "Sthlm AI",
+    description: "I've been participating in Sthlm AI's workshops and hackathons to learn more about AI. The home to startups like Lovable.dev",
+    image: "/lovable-uploads/sthlm ai.jpeg",
     tags: ["React", "Python", "TensorFlow"]
   },
   {
-    title: "E-commerce Solution",
-    description: "A scalable e-commerce platform with real-time inventory management.",
-    image: "/placeholder.svg",
+    title: "Klimato",
+    description: "I helped klimato in the early stages with the development of their web app.",
+    image: "/lovable-uploads/klimato.png",
     tags: ["Next.js", "Node.js", "MongoDB"]
   },
   {
-    title: "Mobile Health App",
-    description: "A healthcare tracking application for monitoring patient wellness.",
-    image: "/placeholder.svg",
+    title: "&frankly",
+    description: "Andfrankly is an app to keep track of the pulse of a workplace and its wellbeing. How is the organization really doing? I was involved in the development of &frankly's web app.",
+    image: "/lovable-uploads/&frankly.webp",
     tags: ["React Native", "Firebase", "TypeScript"]
   },
   {
-    title: "Smart City Dashboard",
+    title: "Delningssystem",
     description: "Real-time monitoring system for urban infrastructure and services.",
-    image: "/placeholder.svg",
+    image: "/lovable-uploads/delningssystem.png",
+    tags: ["Vue.js", "GraphQL", "D3.js"]
+  },
+  {
+    title: "Filmskapande",
+    description: "Real-time monitoring system for urban infrastructure and services.",
+    image: "/lovable-uploads/filmskapande.png",
+    tags: ["Vue.js", "GraphQL", "D3.js"]
+  },
+  {
+    title: "Kooperativa",
+    description: "Real-time monitoring system for urban infrastructure and services.",
+    image: "/lovable-uploads/kooperativa.png",
+    tags: ["Vue.js", "GraphQL", "D3.js"]
+  },
+  {
+    title: "Röda Oasen",
+    description: "Real-time monitoring system for urban infrastructure and services.",
+    image: "/lovable-uploads/oasen.png",
+    tags: ["Vue.js", "GraphQL", "D3.js"]
+  },
+  {
+    title: "Teater K",
+    description: "Real-time monitoring system for urban infrastructure and services.",
+    image: "/lovable-uploads/teaterk.png",
     tags: ["Vue.js", "GraphQL", "D3.js"]
   }
 ];
