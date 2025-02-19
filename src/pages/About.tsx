@@ -42,7 +42,7 @@ const About = () => {
                       style={{ imageRendering: 'crisp-edges' }}
                     />
                     <AvatarFallback>
-                      <Skeleton className="w-48 h-48 md:w-72 md:h-72 rounded-full" />
+                      <Skeleton className="w-48 h-48 md:w-72 md:h-72" />
                     </AvatarFallback>
                   </Avatar>
                 </div>

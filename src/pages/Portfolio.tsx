@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Stars from "../components/Stars";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import CachedImage from "@/components/CachedImage";
 
 const projects = [
   {
@@ -87,7 +88,7 @@ const Portfolio = () => {
                 >
                   <Card className="bg-white bg-opacity-10 backdrop-blur-lg border-none text-white hover:bg-opacity-20 transition-all">
                     <CardHeader>
-                      <img
+                      <CachedImage
                         src={project.image}
                         alt={project.title}
                         className="w-full h-48 object-cover rounded-t-lg mb-4"

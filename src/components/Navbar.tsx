@@ -27,6 +27,13 @@ const NavLinks = ({ onClick }: { onClick?: () => void }) => (
     >
       Contact
     </Link>
+    <Link 
+      to="/engagement" 
+      className="text-white hover:text-opacity-80 transition-colors"
+      onClick={onClick}
+    >
+      Engagement
+    </Link>
   </>
 );
 
